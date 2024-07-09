@@ -1,0 +1,21 @@
+#calculadora__content{
+    display: none;
+}
+
+.calculadora{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculadora__usuario{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 3rem;
+    background: #4397bbd1;
+    border-radius: 16px;
+    gap: 1.5rem;
+}
