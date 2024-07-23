@@ -1,34 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Básica</title>
+    <title>Fetch API Example</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="calculadora">
-    <section id="calculadora__usuario">
-        <h1>Ingrese su usuario</h1>
-        <input type="text" id="name" placeholder="nombre">
-        <input type="text" id="lastname" placeholder="apellido">
-        <button onclick="user()">Registrar</button>
-    </section>
-    <section id="calculadora__content">
-        <h1>Calculadora Básica</h1>
-        <h3 id="user"></h3>
-        <div id="calculadora__content__form">
-            <input type="text" id="input1" placeholder="Número 1">
-            <input type="text" id="input2" placeholder="Número 2">
-            <select id="operacion">
-                <option value="sumar">Sumar</option>
-                <option value="restar">Restar</option>
-                <option value="multiplicar">Multiplicar</option>
-                <option value="dividir">Dividir</option>
-            </select>
-            <button onclick="calcular()">Calcular</button>
-        </div>
-        <p id="resultado"></p>
-        <script src="javascript.js"></script>
-    </section>
+<body>
+    <h1>Pokémon Information</h1>
+    <button id="fetchButton"  onclick="getPokemon()">Buscar pokemon</button>
+    <div id="pokemonData"></div>
+    <script src="javascript.js"></script>
 </body>
 </html>
